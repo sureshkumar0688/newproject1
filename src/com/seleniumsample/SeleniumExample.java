@@ -12,6 +12,8 @@ public class SeleniumExample {
 		
 		driver.findElement(By.id("email")).sendKeys("greens001@gmail.com");
 		
+		driver.findElement(By.id("pass")).sendKeys("9876543");
+
 	}
 
 }
