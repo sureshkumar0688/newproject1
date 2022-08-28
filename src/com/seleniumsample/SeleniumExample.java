@@ -10,8 +10,10 @@ public class SeleniumExample {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/login/");
 		
-		driver.findElement(By.id("pass")).sendKeys("9876543");
+		driver.findElement(By.id("email")).sendKeys("greens001@gmail.com");
 		
+		driver.findElement(By.id("pass")).sendKeys("9876543");
+
 	}
 
 }
